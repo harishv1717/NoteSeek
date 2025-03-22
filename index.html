@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tone/14.7.58/Tone.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tensorflow/1.2.8/tf.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@magenta/music@^1.0.0/es6/core.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@magenta/music@1.2"></script>
+        <script src="https://cdn.jsdelivr.net/npm/vexflow@4.2.2/build/cjs/vexflow.js"></script>
+        <link rel="stylesheet" href="mainstyle.css" />
+    </head>
+    <body>
+        <img src="logo.jpg" id="logo" />
+        <div class="wrapper">
+            <h1>NoteSeek</h1>
+            <div class="input-box">Upload .mp3 file</div>
+
+            <input type="file" id="fileInput"></input>
+        </div>
+
+        <script>
+            const submit = () => {
+                location.href = "/index.html";
+            };
+        </script>
+    
+    </body>
+    <script src="index.js"></script>
+</html>
